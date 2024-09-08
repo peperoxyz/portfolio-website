@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&family=Manrope:wght@200..800&display=swap");
+
+@layer components {
+	/* fonts */
+	.font-buenard-reguler {
+		font-family: "Buenard", serif;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	.font-buenard-bold {
+		font-family: "Buenard", serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	.font-manrope-reguler {
+		font-family: "Manrope", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 200;
+		font-style: normal;
+	}
+
+	.font-manrope-bold {
+		font-family: "Manrope", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 700;
+		font-style: normal;
+	}
+
+	/* colors */
+	.bg-primary-darkest {
+		@apply bg-[#0C0C0E];
+	}
+
+	.text-primary-darkest {
+		@apply text-[#0C0C0E];
+	}
+
+	.bg-primary-dark {
+		@apply bg-[#121212];
+	}
+
+	.text-primary-dark {
+		@apply text-[#121212];
+	}
+
+	.bg-violet-dark {
+		@apply bg-[#1C1C21];
+	}
+
+	.text-violet-dark {
+		@apply text-[#1C1C21];
+	}
+
+	.border-violet-dark {
+		@apply border border-[#1C1C21];
+	}
+
+	.bg-violet-light {
+		@apply bg-[#AEA1F7];
+	}
+
+	.text-violet-light {
+		@apply text-[#AEA1F7];
+	}
+
+	.bg-blue-dark {
+		@apply bg-[#190C5A];
+	}
+
+	.text-gray-light {
+		@apply bg-[#AFB0B6];
+	}
+}

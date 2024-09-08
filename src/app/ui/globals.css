@@ -74,6 +74,6 @@
 	}
 
 	.text-gray-light {
-		@apply bg-[#AFB0B6];
+		@apply text-[#AFB0B6];
 	}
 }

@@ -23,14 +23,14 @@ export const Header = () => {
 			<div className="bg-gradient-to-r from-violet-200 to-violet-700 h-0.5 md:h-1"></div>
 			<div className="container py-5 mx-auto px-6 lg:px-20 flex justify-center md:justify-between items-center">
 				<div className="text-2xl hidden md:block">{"</>"}</div>
-				<div className="md:-ml-10 border-violet-dark bg-violet-dark text-xs md:text-base rounded-full w-fit  py-[0.1rem] ">
-					<nav className="flex gap-[0.3rem] px-[0.3rem] md:px-2 py-0.5 md:py-1 items-center">
+				<div className="md:-ml-10 border-violet-dark bg-violet-dark text-xs md:text-base rounded-full w-fit border-slate-700/20 shadow-inner shadow-black/50 py-[0.1rem] ">
+					<nav className="flex gap-[0.3rem] px-[0.3rem] md:px-2 py-0.5 md:pt-1 md:pb-[0.125rem] items-center">
 						{["Home", "Projects", "Articles", "About"].map((item) => (
 							<Link
 								key={item}
 								href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
 								className={`hover:bg-primary-dark hover:rounded-full hover:px-5 hover:py-2 transition-all px-4 duration-300  ${
-									pathname === (item === "Home" ? "/" : `/${item.toLowerCase()}`) ? "px-5 py-2 rounded-full bg-primary-dark" : "text-white"
+									pathname === (item === "Home" ? "/" : `/${item.toLowerCase()}`) ? "px-5 py-2 rounded-full bg-primary-dark" : "text-gray-light"
 								}`}
 							>
 								{item}

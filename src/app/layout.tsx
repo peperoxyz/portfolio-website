@@ -12,7 +12,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en" className="bg-primary-dark">
+		<html lang="en" className="bg-primary-dark font-manrope-reguler">
 			<body>{children}</body>
 		</html>
 	);

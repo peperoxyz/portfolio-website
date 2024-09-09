@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "./button";
+import { SocialIcons } from "./social-icons";
 import starIcon from "/src/public/images/star.png";
 
 interface CardDetail {
@@ -21,10 +22,10 @@ export const AboutMeCard = () => {
 		paragraph2:
 			"During my internship as a Front End Developer in Folxcode, I’ve created some UI designs and its implementation with Angular and Tailwind CSS. Within that, I’m also familiar with creating a responsive-layout websites, implementing dynamic interaction in website, and up to data management and manipulation in API consumption for CRUD. I’m also open to exploring newer technologies or tech stack that required in my working environment.",
 		email: "deaanandagunawan@gmail.com",
-		github: "peperoxyz",
+		github: "https://github.com/peperoxyz",
 		twitter: "https://x.com/dededededea_",
 		linkedin: "https://www.linkedin.com/in/dea-ananda-gunawan/",
-		resume: "drive.do",
+		resume: "https://drive.google.com/file/d/1Obp3aSl3vNr2PPjqL8POqDe31pnqQs6a/view",
 	};
 
 	const { title, paragraph1, paragraph2, email, github, linkedin, resume, twitter } = cardDetail;
@@ -50,7 +51,9 @@ export const AboutMeCard = () => {
 					<div>
 						<Button color={true} name="Download cv" />
 					</div>
-					<div>socials</div>
+					<div>
+						<SocialIcons links={{ github: github, twitter: twitter, linkedin: linkedin }} />
+					</div>
 				</div>
 			</div>
 		</div>

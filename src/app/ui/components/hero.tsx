@@ -1,12 +1,12 @@
 import Image from "next/image";
-import { ButtonViolet } from "@/app/ui/components/button";
+import { Button } from "@/app/ui/components/button";
 import handImage from "/src/public/images/hand-hello.png";
 import heroPattern from "/src/public/images/hero-pattern.png";
 import { ChevronDown } from "react-feather";
 
 export const Hero = () => {
 	return (
-		<section className="container mx-auto px-6 lg:px-20 py-4 mt-5 h-[75vh] flex items-center flex-col justify-center relative">
+		<section className="container max-w-[77rem] mx-auto py-4 mt-5 h-[75vh] flex items-center flex-col justify-center relative">
 			<div className="container text-gray-light md:justify-between w-full block">
 				<div className="flex justify-center md:justify-between">
 					<div>
@@ -25,8 +25,8 @@ export const Hero = () => {
 							</p>
 						</div>
 						<div className="mt-3 flex flex-col md:flex-row gap-3">
-							<ButtonViolet color={true} name={"Download my resume"} />
-							<ButtonViolet color={false} name={"See what I have made"} />
+							<Button color={true} name={"Download my resume"} />
+							<Button color={false} name={"See what I have made"} />
 						</div>
 					</div>
 					<div className="hidden xl:block xl:right-10 static">

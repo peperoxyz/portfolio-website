@@ -9,9 +9,9 @@ export default function Home() {
 		<div>
 			<Header />
 			<Hero />
-			<Divider id="about-me-section" sectionDetails={{ title: "More", name: "About Me", button: "Contact me" }} />
+			<Divider sectionDetails={{ title: "More", name: "About Me", button: "About me", href: "/about" }} />
 			<AboutMe />
-			<Divider id="projects-section" sectionDetails={{ title: "Featured", name: "Projects", button: "See all projects" }} />
+			<Divider sectionDetails={{ title: "Featured", name: "See All Projects", button: "See all projects", href: "/projects" }} />
 			<ProjectWrapper />
 		</div>
 	);

@@ -12,7 +12,7 @@ interface SocialIconLinkProps {
 }
 
 const SocialIconLink: React.FC<SocialIconLinkProps> = ({ href, iconSrc, altText }) => (
-	<Link className="hover:scale-105 transition-all duration-100" href={href}>
+	<Link target={"_blank"} className="hover:scale-105 transition-all duration-100" href={href}>
 		<div className="h-10 w-10 flex justify-center items-center bg-violet-dark rounded-full border border-slate-800/50">
 			<Image alt={altText} className="w-5" src={iconSrc} />
 		</div>

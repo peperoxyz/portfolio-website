@@ -109,7 +109,7 @@ const projects = [
 
 export const ProjectWrapper = () => {
 	return (
-		<div className="container py-8 xl:py-20 mx-auto max-w-lg sm:max-w-[30rem] md:max-w-3xl lg:max-w-[62rem] xl:max-w-[77rem]">
+		<div id="projects" className="container py-8 xl:py-20 mx-auto max-w-lg sm:max-w-[30rem] md:max-w-3xl lg:max-w-[62rem] xl:max-w-[77rem]">
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 				{projects.map((project, index) => (
 					<ProjectCard

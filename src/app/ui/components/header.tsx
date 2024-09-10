@@ -19,7 +19,7 @@ export const Header = () => {
 	}, []);
 
 	return (
-		<div className={`${isSticky ? "sticky top-0 z-50" : ""} bg-primary-dark text-white transition-all duration-300 ease-in-out`}>
+		<div id="header" className={`${isSticky ? "sticky top-0 z-50" : ""} bg-primary-dark text-white transition-all duration-300 ease-in-out`}>
 			<div className="bg-gradient-to-r from-violet-200 to-violet-700 h-0.5 md:h-1"></div>
 			<div className="container py-5 mx-auto max-w-lg sm:max-w-[30rem] md:max-w-3xl lg:max-w-[62rem] xl:max-w-[77rem] flex justify-center md:justify-between items-center">
 				<div className="text-2xl hidden md:block">{"</>"}</div>

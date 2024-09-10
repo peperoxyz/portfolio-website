@@ -6,7 +6,7 @@ import { ChevronDown } from "react-feather";
 
 export const Hero = () => {
 	return (
-		<section className="container max-w-[77rem] mx-auto py-4 mt-5 h-[75vh] flex items-center flex-col justify-center relative">
+		<section id="hero" className="container max-w-[77rem] mx-auto py-4 mt-5 h-[75vh] flex items-center flex-col justify-center relative">
 			<div className="container text-gray-light md:justify-between w-full block">
 				<div className="flex justify-center md:justify-between">
 					<div>

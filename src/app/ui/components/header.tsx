@@ -25,7 +25,7 @@ export const Header = () => {
 				<div className="text-2xl hidden md:block">{"</>"}</div>
 				<div className="md:-ml-10 border-violet-dark bg-violet-dark text-xs md:text-base rounded-full w-fit border-slate-700/20 shadow-inner shadow-black/50 py-[0.1rem] ">
 					<nav className="flex gap-[0.3rem] px-[0.3rem] md:px-2 py-0.5 md:pt-1 md:pb-[0.125rem] items-center">
-						{["Home", "Projects", "Articles", "About"].map((item) => (
+						{["Home", "Projects", "About"].map((item) => (
 							<Link
 								key={item}
 								href={item === "Home" ? "/" : `/${item.toLowerCase()}`}

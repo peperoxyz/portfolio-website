@@ -26,7 +26,7 @@ export const AboutMeCard = () => {
 		github: "https://github.com/peperoxyz",
 		twitter: "https://x.com/dededededea_",
 		linkedin: "https://www.linkedin.com/in/dea-ananda-gunawan/",
-		resume: "https://drive.google.com/file/d/1Obp3aSl3vNr2PPjqL8POqDe31pnqQs6a/view",
+		resume: "https://drive.google.com/file/d/1cXyWf9k0nqO5RnLbxB6AvORsNRcXVOXY/view",
 	};
 
 	const { title, paragraph1, paragraph2, email, github, linkedin, resume, twitter } = cardDetail;

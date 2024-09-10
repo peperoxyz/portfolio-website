@@ -26,7 +26,7 @@ export const Hero = () => {
 							</p>
 						</div>
 						<div className="mt-3 flex flex-col md:flex-row gap-3">
-							<Link target={"_blank"} href={"https://drive.google.com/file/d/1Obp3aSl3vNr2PPjqL8POqDe31pnqQs6a/view"}>
+							<Link target={"_blank"} href={"https://drive.google.com/file/d/1cXyWf9k0nqO5RnLbxB6AvORsNRcXVOXY/view"}>
 								<Button color={true} name={"Download my resume"} />
 							</Link>
 							<Link href={"/projects"}>

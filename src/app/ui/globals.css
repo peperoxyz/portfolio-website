@@ -4,6 +4,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&family=Manrope:wght@200..800&display=swap");
 
+html {
+	scroll-behavior: smooth;
+}
+
 @layer components {
 	/* fonts */
 	.font-buenard-reguler {

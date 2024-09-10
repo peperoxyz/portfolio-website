@@ -3,6 +3,7 @@ import { Button } from "@/app/ui/components/button";
 import handImage from "/src/public/images/hand-hello.png";
 import heroPattern from "/src/public/images/hero-pattern.png";
 import { ChevronDown } from "react-feather";
+import Link from "next/link";
 
 export const Hero = () => {
 	return (
@@ -25,8 +26,12 @@ export const Hero = () => {
 							</p>
 						</div>
 						<div className="mt-3 flex flex-col md:flex-row gap-3">
-							<Button color={true} name={"Download my resume"} />
-							<Button color={false} name={"See what I have made"} />
+							<Link target={"_blank"} href={"https://drive.google.com/file/d/1Obp3aSl3vNr2PPjqL8POqDe31pnqQs6a/view"}>
+								<Button color={true} name={"Download my resume"} />
+							</Link>
+							<Link href={"/projects"}>
+								<Button color={false} name={"See what I have made"} />
+							</Link>
 						</div>
 					</div>
 					<div className="hidden xl:block xl:right-10 static">

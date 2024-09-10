@@ -1,8 +1,12 @@
 import { clsx } from "clsx";
-import { ArrowRight } from "react-feather";
 
-export const Button = (params: any) => {
-	const { name, color, button } = params;
+interface ButtonParams {
+	name: string;
+	color: boolean;
+}
+
+export const Button = (params: ButtonParams) => {
+	const { name, color } = params;
 
 	return (
 		<button

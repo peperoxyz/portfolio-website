@@ -1,6 +1,16 @@
 import { Button } from "./button";
 
-export const Divider = (params: any) => {
+interface DividerParams {
+	title: string;
+	button: string;
+	sectionDetails: {
+		title: string;
+		name: string;
+		button: string;
+	};
+}
+
+export const Divider = (params: DividerParams) => {
 	const { title, name, button } = params.sectionDetails;
 	console.log(params);
 
@@ -12,7 +22,7 @@ export const Divider = (params: any) => {
 					<h3 className="text-lg md:text-3xl">{name}</h3>
 				</div>
 				<div>
-					<Button color={true} name={button} arrowRightIcon={true} />
+					<Button color={true} name={button} />
 				</div>
 			</div>
 		</div>

@@ -49,7 +49,7 @@ export const AboutMeCard = () => {
 					<span className="text-gray-light hover:cursor-pointer hover:text-white text-sm">{email}</span>
 				</div>
 				<div className="flex justify-between items-center mt-4">
-					<Link target={"_blank"} href="https://drive.google.com/file/d/1Obp3aSl3vNr2PPjqL8POqDe31pnqQs6a/view">
+					<Link target={"_blank"} href={resume}>
 						<Button color={true} name="Download CV" />
 					</Link>
 					<div>

@@ -1,3 +1,5 @@
+"use client";
+
 import angularIcon from "/src/public/images/angular-icon.png";
 import tailwindIcon from "/src/public/images/tailwind-icon.png";
 import nextJsIcon from "/src/public/images/nextjs-icon.png";
@@ -14,6 +16,8 @@ import pizzaHuntImage from "/src/public/thumbnails/pizza-hunt-thumbnail.png";
 import stroomImage from "/src/public/thumbnails/stroom-thumbnail.png";
 import clippyQuoteImage from "/src/public/thumbnails/clippy-quote-thumbnail.png";
 import glassyBiolinksImage from "/src/public/thumbnails/glassy-biolinks-thumbnail.png";
+
+import { usePathname } from "next/navigation";
 
 // Define the project data as an array of objects
 const projects = [
@@ -108,10 +112,14 @@ const projects = [
 ];
 
 export const ProjectWrapper = () => {
+	const pathname = usePathname();
+
+	const displayedProjects = pathname === "/" ? projects.slice(0, 3) : projects;
+
 	return (
-		<div id="projects" className="container py-8 xl:py-20 mx-auto max-w-lg sm:max-w-[30rem] md:max-w-3xl lg:max-w-[62rem] xl:max-w-[77rem]">
+		<div id="projects" className="container py-8 xl:py-20 px-3 sm:px-0 mx-auto max-w-lg sm:max-w-[30rem] md:max-w-3xl lg:max-w-[62rem] xl:max-w-[77rem]">
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-				{projects.map((project, index) => (
+				{displayedProjects.map((project, index) => (
 					<ProjectCard
 						key={index}
 						category={project.category}

@@ -21,7 +21,7 @@ export const Hero = () => {
 						</div>
 						<div className="text-sm max-w-lg md:max-w-3xl mt-3 md:text-lg">
 							<p className="text-gray-light">
-								Graduated from State Polytechnic of Batam,majored in Informatics Engineering. Currently learning Fullstack Javascript with Next JS ecosystem in <span className="font-bold"> Devscale. </span>
+								Graduated from State Polytechnic of Batam,majored in Informatics Engineering. <br /> Currently learning Fullstack Javascript with Next JS ecosystem in <span className="font-bold"> Devscale. </span>
 							</p>
 						</div>
 						<div className="mt-3 flex flex-col md:flex-row gap-3">

@@ -1,5 +1,3 @@
-// import { Button } from "./button";
-import { clsx } from "clsx";
 import Link from "next/link";
 import { Button } from "./button";
 

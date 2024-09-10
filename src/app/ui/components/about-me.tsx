@@ -4,7 +4,7 @@ import deaPhoto from "/src/public/images/dea.png";
 
 export const AboutMe = () => {
 	return (
-		<section id="about-me" className="container mx-auto max-w-xl md:max-w-2xl lg:max-w-[62rem] xl:max-w-[77rem] py-10 xl:py-20 relative text-white px-14 ">
+		<section id="about-me" className="container mx-auto max-w-xl md:max-w-2xl lg:max-w-[62rem] xl:max-w-[77rem] py-10 xl:py-16 relative text-white px-14 ">
 			<div className="flex items-center justify-center gap-16 flex-col xl:flex-row relative">
 				<article className="flex justify-center xl:w-[30rem]">
 					<div className="rounded-[1.5rem] -rotate-6 bg-violet-dark h-64 w-64 md:w-80 md:h-[22rem] xl:w-[23rem] -ml-10 xl:h-[22rem] mt-1"></div>

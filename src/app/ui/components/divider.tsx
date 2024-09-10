@@ -1,18 +1,19 @@
+// import { Button } from "./button";
+import { clsx } from "clsx";
+import Link from "next/link";
 import { Button } from "./button";
 
 interface DividerParams {
-	title: string;
-	button: string;
 	sectionDetails: {
 		title: string;
 		name: string;
 		button: string;
+		href: string;
 	};
 }
 
 export const Divider = (params: DividerParams) => {
-	const { title, name, button } = params.sectionDetails;
-	console.log(params);
+	const { title, name, href } = params.sectionDetails;
 
 	return (
 		<div className="flex justify-center">
@@ -22,7 +23,9 @@ export const Divider = (params: DividerParams) => {
 					<h3 className="text-lg md:text-3xl">{name}</h3>
 				</div>
 				<div>
-					<Button color={true} name={button} />
+					<Link href={href}>
+						<Button color={true} name={name} />
+					</Link>
 				</div>
 			</div>
 		</div>

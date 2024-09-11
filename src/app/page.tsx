@@ -11,7 +11,7 @@ export default function Home() {
 			<Hero />
 			<Divider sectionDetails={{ title: "More", name: "About Me", button: "About me", href: "/about" }} />
 			<AboutMe />
-			<Divider sectionDetails={{ title: "Featured", name: "See All Projects", button: "See all projects", href: "/projects" }} />
+			<Divider sectionDetails={{ title: "Featured", name: "Selected Projects", button: "See all projects", href: "/projects" }} />
 			<ProjectWrapper />
 		</div>
 	);

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "./button";
 import { SocialIcons } from "./social-icons";
-import starIcon from "/src/public/images/star.png";
+import starIcon from "/src/public/icons/star.png";
 
 interface CardDetail {
 	title: string;

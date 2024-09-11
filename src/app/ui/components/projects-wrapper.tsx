@@ -1,12 +1,12 @@
 "use client";
 
-import angularIcon from "/src/public/images/angular-icon.png";
-import tailwindIcon from "/src/public/images/tailwind-icon.png";
-import nextJsIcon from "/src/public/images/nextjs-icon.png";
-import jsIcon from "/src/public/images/js-icon.png";
-import htmlIcon from "/src/public/images/html-icon.png";
-import cssIcon from "/src/public/images/css-icon.png";
-import figmaIcon from "/src/public/images/figma-icon.png";
+import angularIcon from "/src/public/icons/angular-icon.png";
+import tailwindIcon from "/src/public/icons/tailwind-icon.png";
+import nextJsIcon from "/src/public/icons/nextjs-icon.png";
+import jsIcon from "/src/public/icons/js-icon.png";
+import htmlIcon from "/src/public/icons/html-icon.png";
+import cssIcon from "/src/public/icons/css-icon.png";
+import figmaIcon from "/src/public/icons/figma-icon.png";
 import ProjectCard from "@/app/ui/components/project-card";
 import worksoImage from "/src/public/thumbnails/works-so-thumbnail.png";
 import belajaranImage from "/src/public/thumbnails/belajaran-thumbnail.png";

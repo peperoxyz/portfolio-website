@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/app/ui/components/button";
-import handImage from "/src/public/images/hand-hello.png";
-import heroPattern from "/src/public/images/hero-pattern.png";
+import handImage from "/src/public/icons/hand-hello.png";
+import heroPattern from "/src/public/icons/hero-pattern.png";
 import { ChevronDown } from "react-feather";
 import Link from "next/link";
 

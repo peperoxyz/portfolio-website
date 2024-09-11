@@ -1,9 +1,9 @@
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
-import githubIcon from "/src/public/images/github.png";
-import twitterIcon from "/src/public/images/twitter.png";
-import linkedinIcon from "/src/public/images/linkedin.png";
-import liveSiteIcon from "/src/public/images/live-site.png";
+import githubIcon from "/src/public/icons/github.png";
+import twitterIcon from "/src/public/icons/twitter.png";
+import linkedinIcon from "/src/public/icons/linkedin.png";
+import liveSiteIcon from "/src/public/icons/live-site.png";
 
 interface SocialIconLinkProps {
 	href: string;

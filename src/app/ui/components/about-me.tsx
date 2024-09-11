@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { AboutMeCard } from "./about-me-card";
-import deaPhoto from "/src/public/images/dea.png";
+import deaPhoto from "/src/public/icons/dea.png";
 
 export const AboutMe = () => {
 	return (

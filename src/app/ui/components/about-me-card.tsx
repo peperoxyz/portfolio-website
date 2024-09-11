@@ -34,11 +34,11 @@ export const AboutMeCard = () => {
 	return (
 		<div>
 			<div className="bg-primary-dark w-full lg:w-[70%] mx-auto xl:w-full border-violet-dark rounded-b-none p-7 rounded-xl">
-				<div className="flex gap-5 xl:justify-start mb-4">
+				<div className="flex gap-5 items-center xl:justify-start mb-4">
 					<Image src={starIcon} alt="icon-star object-cover" height={40} />
 					<div className="font-buenard-reguler text-lg md:text-xl lg:text-[1.7rem]">{title}</div>
 				</div>
-				<div className="text-sm text-gray-light leading-relaxed font-extralight">
+				<div className="text-sm lg:text-[0.9rem] text-gray-light leading-relaxed font-extralight">
 					<p className="mb-4">{paragraph1}</p>
 					<p>{paragraph2}</p>
 				</div>

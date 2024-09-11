@@ -117,7 +117,7 @@ export const ProjectWrapper = () => {
 	const displayedProjects = pathname === "/" ? projects.slice(0, 3) : projects;
 
 	return (
-		<div id="projects" className="container py-8 xl:py-20 px-3 sm:px-0 mx-auto max-w-lg sm:max-w-[30rem] md:max-w-3xl lg:max-w-[62rem] xl:max-w-[77rem]">
+		<div id="projects" className="container py-8 xl:py-10 px-3 sm:px-0 mx-auto max-w-lg sm:max-w-[30rem] md:max-w-3xl lg:max-w-[62rem] xl:max-w-[77rem]">
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 				{displayedProjects.map((project, index) => (
 					<ProjectCard

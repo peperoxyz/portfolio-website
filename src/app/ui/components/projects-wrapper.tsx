@@ -24,7 +24,7 @@ const projects = [
 	{
 		title: "Clippy Quote",
 		category: "Frontend Web App",
-		description: "Clippy-Quote: Next.js app to keep track of good wise words you heard or read from anywhere. *Deisnged by me",
+		description: "Clippy-Quote: Next.js app to keep track of good wise words you heard or read from anywhere. *Designed by me",
 		imageSrc: clippyQuoteImage,
 		techStack: [
 			{ name: "Next.js", iconSrc: nextJsIcon },
@@ -36,7 +36,7 @@ const projects = [
 	{
 		title: "Glassy BioLinks",
 		category: "Frontend Web App",
-		description: "A visually appealing, glassmorphism-inspired bio link page with customizable background. *Deisnged by me",
+		description: "A visually appealing, glassmorphism-inspired bio link page with customizable background. *Designed by me",
 		imageSrc: glassyBiolinksImage,
 		techStack: [
 			{ name: "HTML", iconSrc: htmlIcon },
@@ -61,7 +61,7 @@ const projects = [
 	{
 		title: "Movie Buddy - Landing Page",
 		category: "UI/UX Design & Slicing",
-		description: "Landing page for an app to find movie buddies in order to practice my HTML and CSS skill. *Deisnged by me.",
+		description: "Landing page for an app to find movie buddies in order to practice my HTML and CSS skill. *Designed by me.",
 		imageSrc: movieBuddyImage,
 		techStack: [{ name: "Tailwind CSS", iconSrc: tailwindIcon }],
 		liveSiteUrl: "https://movie-buddy-omega.vercel.app/",

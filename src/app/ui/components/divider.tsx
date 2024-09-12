@@ -5,7 +5,6 @@ interface DividerParams {
 	sectionDetails: {
 		title: string;
 		name: string;
-		button: string;
 		href: string;
 	};
 }

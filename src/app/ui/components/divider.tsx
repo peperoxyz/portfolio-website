@@ -6,11 +6,12 @@ interface DividerParams {
 		title: string;
 		name: string;
 		href: string;
+		button: string;
 	};
 }
 
 export const Divider = (params: DividerParams) => {
-	const { title, name, href } = params.sectionDetails;
+	const { title, name, href, button } = params.sectionDetails;
 
 	return (
 		<div className="flex justify-center px-3 sm:px-0">
@@ -21,7 +22,7 @@ export const Divider = (params: DividerParams) => {
 				</div>
 				<div>
 					<Link href={href}>
-						<Button color={true} name={name} />
+						<Button color={true} name={button} />
 					</Link>
 				</div>
 			</div>

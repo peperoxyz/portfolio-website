@@ -10,9 +10,9 @@ export default function Home() {
 		<div>
 			<Header />
 			<Hero />
-			<Divider sectionDetails={{ title: "More", name: "About Me", button: "About me", href: "/about" }} />
+			<Divider sectionDetails={{ title: "More", name: "About Me", href: "/about" }} />
 			<AboutMe />
-			<Divider sectionDetails={{ title: "Featured", name: "Selected Projects", button: "See all projects", href: "/projects" }} />
+			<Divider sectionDetails={{ title: "Featured", name: "See all projects", href: "/projects" }} />
 			<ProjectWrapper />
 			<Footer />
 		</div>
